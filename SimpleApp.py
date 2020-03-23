@@ -11,7 +11,7 @@ class SimpleApp(object):
 
         label = Label(self.win, text='This is a simple app.')
 
-        label.pack(self.win, expand=True, fill='both')
+        label.pack(expand=True, fill='both')
 
         self.widgets.append(label)
 
